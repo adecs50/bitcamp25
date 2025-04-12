@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrumpShake | Trump Did You Wrong? Do Not Panic</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Gov2Next</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Fired? Don’t Panic.</h1>
+      <p>Gov2Next helps former government employees find their next best job — fast.</p>
+      <a href="#signup" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="features" class="features">
+      <h2>What We Offer</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <h3>Job Matching</h3>
+          <p>Get job listings based on your former role, clearance, and location.</p>
+        </div>
+        <div class="feature">
+          <h3>Resume Translator</h3>
+          <p>Turn your federal position into private-sector language with one click.</p>
+        </div>
+        <div class="feature">
+          <h3>Smart Alerts</h3>
+          <p>Be notified when roles matching your background get posted.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="jobs" class="jobs-preview">
+      <h2>Sample Jobs Near You</h2>
+      <ul class="job-listings">
+        <li>
+          <h3>Operations Analyst - Private Contractor</h3>
+          <p>Location: Washington, DC</p>
+        </li>
+        <li>
+          <h3>Compliance Specialist - Healthcare NGO</h3>
+          <p>Location: Baltimore, MD</p>
+        </li>
+        <li>
+          <h3>Security Advisor - Cyber Risk Firm</h3>
+          <p>Location: Remote</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="signup" class="signup">
+      <h2>Ready to Restart?</h2>
+      <form action="signup.php" method="post">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="text" name="former-role" placeholder="Former Government Role" />
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gov2Next. All rights reserved.</p>
+  </footer>
+</body>
+</html>
